@@ -1,3 +1,13 @@
+:root {
+  /* Color */
+  --primary: #fff4e2;
+  --secondary: #ffc179;
+  --lightBlue: #94cbff;
+  --darkBlue: #164899;
+
+  /* Tipografia */
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -14,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   font-size: 1.6rem;
 }
@@ -24,19 +38,15 @@ body {
   margin: 0 auto;
 }
 
-.margin-botton {
-  margin-bottom: 2rem;
+/* Color Button */
+
+.btn-navbar__primary {
+  background: var(--primary);
 }
 
-img {
-  max-width: 100%;
-}
-
-/* Button de Navbar */
-
-btn-navbar__primary {
-  background: #fff4e2;
-}
+/* .btn-navbar__secondary {
+  background: var(--secondary);
+} */
 
 /* Header */
 

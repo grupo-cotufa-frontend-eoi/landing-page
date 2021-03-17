@@ -12,17 +12,17 @@ class Navbar extends LitElement {
 
   static get styles() {
     return css`
-.header-main {
-  background-color: #ffecd0;
-  display: flex;
-  justify-content: space-around;
-}
+      .header-main {
+        background-color: #ffecd0;
+        display: flex;
+        justify-content: space-around;
+      }
 
-.nav-main {
-  display: flex;
-  gap: 2px;
-  align-items: center;
-}
+      .nav-main {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+      }
 `;
   }
 }
