@@ -54,6 +54,12 @@ html {
         text-align: center;
       }
 
+      @media (min-width: 768px) {
+        & .hero-content {
+          height: 70vh;
+        }
+      }
+
       /* About us section */
       & .title-about {
         text-align: center;
@@ -71,37 +77,37 @@ html {
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-      }
 
-      & .about-section__text,
-      & .about-section__img {
-        flex-basis: calc(50% - 4rem);
-        transform: translateY(-10rem);
-      }
+        & .about-section__bottom-img {
+          border-radius: 50%;
+          height: 25rem;
+          transform: translateX(-75rem) translateY(12rem);
+        }
 
-      & .about-section__text {
-        font-size: 3rem;
-        line-height: 2;
-        text-align: center;
+        & .about-section__text {
+          flex-basis: calc(60% - 4rem);
+          font-size: 3rem;
+          line-height: 2;
+          text-align: center;
+        }
+
+        & .about-section__img {
+          flex-basis: calc(30% - 4rem);
+        }
+
+        @media (max-width: 768px) {
+          & .about-section__text,
+          & .about-section__img {
+            flex-basis: calc(100% - 4rem);
+            transform: translateY(0);
+          }
+        }
       }
     }
   }
 }
 
 /* Media Queries */
-@media (min-width: 768px) {
-  .hero-content {
-    height: 70vh;
-  }
-}
-
-@media (max-width: 768px) {
-  .about-section__text,
-  .about-section__img {
-    flex-basis: calc(100% - 4rem);
-    transform: translateY(0);
-  }
-}
 
 /* Este codigo de acá no hace nada (de momento)
 

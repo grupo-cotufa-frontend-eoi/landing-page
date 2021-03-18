@@ -22,7 +22,7 @@ class Navbar extends LitElement {
 
     .nav-main {
       display: flex;
-      gap: 2px;
+      gap: 10px;
       align-items: center;
     }
 
