@@ -1,6 +1,11 @@
 import { LitElement, html, css } from "lit-element";
 
 class Button extends LitElement {
+  constructor() {
+    super();
+    this.color = this.getAttribute("color");
+  }
+
   render() {
     return html`
       <button class="nav-main__link">
