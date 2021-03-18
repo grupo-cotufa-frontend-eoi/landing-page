@@ -1,9 +1,9 @@
 import { LitElement, html, css } from "lit-element";
 
-class Button extends LitElement {
+class SecondaryButton extends LitElement {
   render() {
     return html`
-      <button class="nav-main__link">
+      <button class="nav-main__link home">
         <a href="">${this.getAttribute("value")}</a>
       </button>
     `;
@@ -22,10 +22,10 @@ class Button extends LitElement {
         padding: 1rem 2rem;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
         border: transparent;
+        background: #ffc179;
       }
-
 `;
   }
 }
 
-customElements.define("button-nav", Button);
+customElements.define("secondary-button", SecondaryButton);
