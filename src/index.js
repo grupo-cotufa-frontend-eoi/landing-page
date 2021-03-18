@@ -1,3 +1,4 @@
-import "./components/navbar.js";
-import "./components/button";
-import "./components/about";
+import "./components/Navbar";
+import "./components/PrimaryButton";
+import "./components/SecondaryButton";
+import "./components/About";
