@@ -3,7 +3,7 @@ import { LitElement, html, css } from "lit-element";
 class PrimaryButton extends LitElement {
   render() {
     return html`
-      <button class="nav-main__link home">
+      <button class="nav-main__link">
         <a href="">${this.getAttribute("value")}</a>
       </button>
     `;

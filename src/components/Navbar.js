@@ -20,14 +20,8 @@ class Navbar extends LitElement {
       justify-content: space-around;
     }
 
-    .nav-main {
-      display: flex;
-      gap: 2px;
-      align-items: center;
-    }
-
     img {
-      width: 10rem;
+      width: 8rem;
       justify-self: flex-start;
       transform: rotate(15deg) scale(1.4);
       transition: 0.3s ease-in-out;

@@ -28,7 +28,7 @@ class About extends LitElement {
 
       @media (max-width: 768px) {
         .skewed {
-          height: 100rem;
+          height: 115rem;
         }
       }
 
@@ -40,7 +40,7 @@ class About extends LitElement {
 
       @media (max-width: 468px) {
         .skewed {
-          height: 120rem;
+          height: 135rem;
         }
       }
 
