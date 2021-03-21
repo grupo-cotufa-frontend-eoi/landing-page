@@ -27,7 +27,7 @@ class Navbar extends LitElement {
     }
 
     img {
-      width: 150px;
+      width: 10rem;
       justify-self: flex-start;
       transform: rotate(15deg) scale(1.4);
       transition: 0.3s ease-in-out;

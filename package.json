@@ -29,5 +29,7 @@
   "dependencies": {
     "lit-element": "^2.4.0"
   },
-  "browserslist": [ "defaults" ]
+  "browserslist": [
+    "defaults"
+  ]
 }

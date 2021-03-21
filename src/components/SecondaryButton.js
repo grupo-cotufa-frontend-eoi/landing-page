@@ -1,9 +1,13 @@
-import { LitElement, html, css } from "lit-element";
+import { LitElement, html, css, unsafeCSS as unsafecss } from "lit-element";
 
 class SecondaryButton extends LitElement {
+  /*     this.width = this.classList.contains("Registrer")
+      ? newLocal
+      : "12rem"; */
+
   render() {
     return html`
-      <button class="nav-main__link home">
+      <button class="nav-main__link">
         <a href="">${this.getAttribute("value")}</a>
       </button>
     `;

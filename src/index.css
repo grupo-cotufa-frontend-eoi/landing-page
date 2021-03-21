@@ -1,12 +1,3 @@
-:root {
-  /* Color */
-  --primary: #fff4e2;
-  --secondary: #ffc179;
-  --lightBlue: #94cbff;
-  --darkBlue: #164899;
-
-  /* Tipografia */
-}
 
 /* Reseteo de márgenes */
 *,
@@ -17,9 +8,19 @@
 }
 
 /* Full document */
+.margin-botton {
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+
 
   /* Body */
   & body {
@@ -55,6 +56,7 @@ html {
       }
 
       /* About us section */
+
       & .title-about {
         text-align: center;
         padding: 2rem;
@@ -74,33 +76,71 @@ html {
         flex-wrap: wrap;
       }
 
-      & .about-section__text,
-      & .about-section__img {
-        flex-basis: calc(50% - 4rem);
-        transform: translateY(-10rem);
-      }
-
       & .about-section__text {
+        flex-basis: calc(55% - 1rem);
         font-size: 3rem;
         line-height: 2;
         text-align: center;
+      }
+
+      & .about-section__img {
+        flex-basis: calc(45% - 1rem);
+      }
+
+      @media (max-width: 1080px) {
+        & .about-section__text {
+          flex-basis: calc(80% - 1rem);
+        }
+
+        & .about-section__img {
+          flex-basis: calc(80% - 1rem);
+        }
       }
     }
   }
 }
 
-/* Media Queries */
-@media (min-width: 768px) {
-  .hero-content {
-    height: 70vh;
-  }
+/* commitment */
+
+.commitment-title {
+  color: #164899;
+  font-weight: bold;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-size: 3.6rem;
 }
 
-@media (max-width: 768px) {
-  .about-section__text,
-  .about-section__img {
-    flex-basis: calc(100% - 4rem);
-    transform: translateY(0);
+.commitment-img__devices {
+  width: 80rem;
+  transform: translateX(25rem);
+  opacity: 0.65;
+}
+
+.commitment-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  & .commitment-content__text {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 2;
+    flex-basis: calc(55% - 1rem);
+  }
+
+  & .commitment-content__img {
+    flex-basis: calc(45% - 1rem);
+  }
+
+  @media (max-width: 1080px) {
+    & .commitment-content__text {
+      flex-basis: calc(80% - 1rem);
+    }
+
+    & .commitment-content__img {
+      flex-basis: calc(80% - 1rem);
+    }
   }
 }
 

@@ -6,7 +6,6 @@ class About extends LitElement {
       <section>
           <div class="skewed">
             <slot></slot>
-            <div class="triangule"></div>
           </div>
       </section>
     `;
@@ -17,8 +16,7 @@ class About extends LitElement {
       .skewed {
         position: relative;
         width: 100%;
-        background: #94cbff;
-        z-index: 0;
+        background: linear-gradient(185deg, #94cbff 85%, white 86%);
       }
 
       .triangule {
@@ -30,13 +28,19 @@ class About extends LitElement {
 
       @media (max-width: 768px) {
         .skewed {
-          height: 102rem;
+          height: 100rem;
+        }
+      }
+
+      @media (max-width: 540px) {
+        .skewed {
+          height: 100rem;
         }
       }
 
       @media (max-width: 468px) {
         .skewed {
-          height: 160rem;
+          height: 120rem;
         }
       }
 
