@@ -43,7 +43,7 @@ body {
 .nav-main {
   display: flex;
   justify-content: space-evenly;
-  width: 55%;
+  width: 50%;
   gap: 3rem;
   align-items: center;
 }
@@ -64,6 +64,16 @@ body {
   justify-content: space-around;
   align-items: center;
   text-align: center;
+}
+
+.hero-img {
+  max-width: 90rem;
+  width: 80%;
+  height: 45rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./assets/undraw_heatmap_uyye.png);
 }
 
 /* About */

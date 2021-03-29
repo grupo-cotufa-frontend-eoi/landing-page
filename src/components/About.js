@@ -19,13 +19,6 @@ class About extends LitElement {
         background: linear-gradient(185deg, #94cbff 85%, white 86%);
       }
 
-      .triangule {
-        position: absolute;
-        bottom: 0;
-        border-left: 160rem solid #fff;
-        border-top: 18rem solid transparent;
-      }
-
       @media (max-width: 768px) {
         .skewed {
           height: 115rem;
