@@ -18,17 +18,14 @@ class Navbar extends LitElement {
       background-color: #ffecd0;
       display: flex;
       justify-content: space-around;
+      border-bottom: 2px var(--darkBlue);
+      box-shadow: 5px 5px 0 #a5c3de, -5px -5px 0 #d7fdff;
     }
 
     img {
-      width: 8rem;
+      width: 9rem;
       justify-self: flex-start;
-      transform: rotate(15deg) scale(1.4);
       transition: 0.3s ease-in-out;
-    }
-
-    a:hover img {
-      transform: rotate(0) scale(1);
     }
 `;
   }
