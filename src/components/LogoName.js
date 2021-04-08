@@ -4,7 +4,8 @@ class LogoName extends LitElement {
   render() {
     return html`
         <h1 class="logo">
-            <span class="logo__yellow">Yeka</span><span class="logo__blue ">Coin</span>
+            <span>Welcome to </span>
+            <span class="logo__yellow">Yeka</span><span class="logo__blue ">Coin.</span>
         </h1>
     `;
   }
@@ -12,9 +13,7 @@ class LogoName extends LitElement {
   static get styles() {
     return css`
     .logo {
-      font-size: 3rem;
-      letter-spacing: 0.3rem;
-      transform: translateX(3rem) translateY(2rem);
+      font-size: 4rem;
       font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
     }
 

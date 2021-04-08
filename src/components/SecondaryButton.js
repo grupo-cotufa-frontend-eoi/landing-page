@@ -17,7 +17,7 @@ class SecondaryButton extends LitElement {
 
     a {
       text-decoration: none;
-      color: #000;
+      color: grey;
       font-size: 2rem;
       font-family: "Advent Pro", sans-serif;
     }
@@ -25,14 +25,19 @@ class SecondaryButton extends LitElement {
     .nav-main__link {
       border-radius: 50px;
       padding: 1rem 2rem;
-      box-shadow: 5px 5px 0 #a5c3de, -5px -5px 0 #d7fdff;
-      border: 2px solid var(--darkBlue);
-      background: var(--secondary);
+      box-shadow: 0 0 0 #a2bed9, -5px -5px 0 #dbffff;
+      border: 2px solid var(--marine);
+      background: var(--darkBlue);
     }
 
     .nav-main__link:hover {
-      background: var(--primary);
-      border: 2px solid var(--marine);
+      background: var(--marine);
+      border: 2px solid var(--darkBlue);
+      color: white;
+    }
+
+    .nav-main__link:hover a {
+      color: white;
     }
 `;
   }

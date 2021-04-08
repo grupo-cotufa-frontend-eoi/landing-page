@@ -11,25 +11,29 @@ class PrimaryButton extends LitElement {
 
   static get styles() {
     return css`
-      a {
-        text-decoration: none;
-        color: #000;
-        font-size: 2rem;
-        font-family: "Advent Pro", sans-serif;
-      }
+    a {
+      text-decoration: none;
+      color: grey;
+      font-size: 2rem;
+      font-family: "Advent Pro", sans-serif;
+    }
 
-      .nav-main__link {
-        border-radius: 50px;
-        padding: 1rem 2rem;
-        box-shadow: 5px 5px 0 #145b9c, -5px -5px 0 #2ec9ff;
-        border: 2px solid var(--turquoise);
-        background: var(--lightBlue);
-      }
+    .nav-main__link {
+      border-radius: 50px;
+      padding: 1rem 2rem;
+      box-shadow: 0 0 0 #145b9c, -5px -5px 0 #2ec9ff;
+      border: 2px solid var(--turquoise);
+      background: var(--lightBlue);
+    }
 
-      .nav-main__link:hover {
-        background: var(--turquoise);
-        border: 2px solid var(--marine);
-      }
+    .nav-main__link:hover {
+      background: var(--turquoise);
+      border: 2px solid var(--marine);
+    }
+
+    .nav-main__link:hover a {
+      color: var(--marine);
+    }
 `;
   }
 }

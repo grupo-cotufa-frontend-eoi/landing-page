@@ -16,7 +16,6 @@ class About extends LitElement {
       .skewed {
         position: relative;
         width: 100%;
-        background: linear-gradient(185deg, #94cbff 85%, white 86%);
       }
 
       @media (max-width: 768px) {

@@ -15,17 +15,15 @@ class Navbar extends LitElement {
   static get styles() {
     return css`
     .header-main {
-      background-color: #ffecd0;
       display: flex;
       justify-content: space-around;
-      border-bottom: 2px var(--darkBlue);
       box-shadow: 5px 5px 0 #a5c3de, -5px -5px 0 #d7fdff;
+      opacity: 0.7;
     }
 
     img {
-      width: 9rem;
+      width: 11rem;
       justify-self: flex-start;
-      transition: 0.3s ease-in-out;
     }
 `;
   }
