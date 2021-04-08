@@ -26,6 +26,12 @@
   font-family: "Advent Pro", sans-serif;
 }
 
+.blue-shadow {
+  text-shadow:
+    1px 1px 1px #000,
+    3px 3px 5px blue;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -103,7 +109,7 @@ body {
 
     & .welcome-container__content {
       width: 50%;
-      margin-top: 20rem;
+      margin-top: 15rem;
 
       & .welcome-paragraph {
         font-size: 5rem;
@@ -127,11 +133,9 @@ body {
   text-align: center;
   padding: 2rem;
   font-size: 3.6rem;
+  font-family: "Press Start 2P", 'Courier New', Courier, monospace;
   color: #fff;
   font-weight: 600;
-  text-shadow:
-    0 4px 4px rgba(0, 0, 0, 0.25),
-    0 4px 4px rgba(0, 0, 0, 0.25);
   text-transform: uppercase;
 }
 
@@ -140,16 +144,27 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  background: linear-gradient(270deg, #e8a9b0, #96b8d4);
+  border-radius: 2rem;
+  padding: 2rem;
 
   & .about-section__text {
     flex-basis: calc(55% - 1rem);
-    font-size: 3rem;
-    line-height: 2;
-    text-align: center;
+    font-size: 4rem;
+    line-height: 1;
+    text-align: left;
+    color: white;
   }
 
   & .about-section__img {
-    flex-basis: calc(45% - 1rem);
+    display: flex;
+    flex-basis: calc(35% - 1rem);
+    border: 1rem solid #9ab7d2;
+    border-radius: 3rem;
+  }
+
+  & .about-section__img img {
+    border-radius: 2rem;
   }
 
   @media (max-width: 1080px) {

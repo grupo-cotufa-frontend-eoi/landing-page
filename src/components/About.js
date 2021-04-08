@@ -14,6 +14,9 @@ class About extends LitElement {
   static get styles() {
     return css`
       .skewed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: relative;
         width: 100%;
       }

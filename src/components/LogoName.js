@@ -15,6 +15,9 @@ class LogoName extends LitElement {
     .logo {
       font-size: 4rem;
       font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+      text-shadow:
+        1px 1px 1px #000,
+        3px 3px 5px blue;
     }
 
     .logo__blue {
