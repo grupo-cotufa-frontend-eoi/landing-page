@@ -126,45 +126,6 @@ body {
   text-transform: uppercase;
 }
 
-.about-section {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  background: linear-gradient(270deg, #e8a9b0, #96b8d4);
-  border-radius: 2rem;
-  padding: 2rem;
-
-  & .about-section__text {
-    flex-basis: calc(55% - 1rem);
-    font-size: 4rem;
-    line-height: 1;
-    text-align: left;
-    color: white;
-  }
-
-  & .about-section__img {
-    display: flex;
-    flex-basis: calc(35% - 1rem);
-    border: 1rem solid #9ab7d2;
-    border-radius: 3rem;
-  }
-
-  & .about-section__img img {
-    border-radius: 2rem;
-  }
-
-  @media (max-width: 1080px) {
-    & .about-section__text {
-      flex-basis: calc(80% - 1rem);
-    }
-
-    & .about-section__img {
-      flex-basis: calc(80% - 1rem);
-    }
-  }
-}
-
 /* commitment */
 
 .commitment-title {
