@@ -59,7 +59,7 @@ body {
 
 .container-full {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .container {
@@ -109,22 +109,9 @@ body {
 
     & .welcome-container__content {
       width: 50%;
-      margin-top: 15rem;
-
-      & .welcome-paragraph {
-        font-size: 5rem;
-        text-align: right;
-      }
+      margin: 12rem 5rem;
     }
   }
-
-  /* & .welcome-title {
-    font-size: 8rem;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 8px var(--turquoise);
-    text-decoration-line: overline underline;
-    margin-top: 8rem;
-  } */
 }
 
 /* About */

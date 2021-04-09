@@ -1,12 +1,13 @@
 import { LitElement, html, css } from "lit-element";
 
-class LogoName extends LitElement {
+class PageWelcome extends LitElement {
   render() {
     return html`
         <h1 class="logo">
             <span>Welcome to </span>
             <span class="logo__yellow">Yeka</span><span class="logo__blue ">Coin.</span>
         </h1>
+        <p class="welcome-paragraph">We provide you information, comparisons and charts on hundreds of cryptocurrencies, so you can get wherever you want to.</p>
     `;
   }
 
@@ -30,8 +31,12 @@ class LogoName extends LitElement {
       font-weight: 600;
     }
 
+    .welcome-paragraph {
+      font-size: 5rem;
+      text-align: right;
+    }
 `;
   }
 }
 
-customElements.define("logo-name", LogoName);
+customElements.define("page-welcome", PageWelcome);
