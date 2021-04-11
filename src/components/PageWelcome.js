@@ -35,6 +35,7 @@ class PageWelcome extends LitElement {
     .welcome-paragraph {
       font-size: 5rem;
       text-align: center;
+      color: #fff;
     }
 `;
   }
