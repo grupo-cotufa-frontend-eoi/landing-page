@@ -16,6 +16,7 @@ class PageWelcome extends LitElement {
     .logo {
       font-size: 4rem;
       font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+      line-height: 1.5;
       text-shadow:
         1px 1px 1px #000,
         3px 3px 5px blue;
@@ -33,7 +34,7 @@ class PageWelcome extends LitElement {
 
     .welcome-paragraph {
       font-size: 5rem;
-      text-align: right;
+      text-align: center;
     }
 `;
   }

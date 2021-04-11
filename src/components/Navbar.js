@@ -15,6 +15,7 @@ class Navbar extends LitElement {
   static get styles() {
     return css`
     .header-main {
+      width: 100%;
       display: flex;
       justify-content: space-around;
       box-shadow: 5px 5px 0 #a5c3de, -5px -5px 0 #d7fdff;
