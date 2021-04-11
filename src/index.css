@@ -121,7 +121,6 @@ body {
   }
 }
 
-
 /* About */
 
 .title-about {
@@ -135,61 +134,18 @@ body {
 }
 
 /* commitment */
-
-.commitment-title {
-  color: #164899;
-  font-weight: bold;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
-  text-align: center;
-  font-size: 3.6rem;
+.cards {
+  margin-bottom: 10rem;
 }
 
-.commitment-img__devices {
-  width: 80rem;
-  transform: translateX(35rem);
-  opacity: 0.65;
-}
+/* Suscriber */
 
-@media (max-width: 1290px) {
-  .commitment-img__devices {
-    transform: translateX(13rem);
-  }
-}
-
-@media (max-width: 800px) {
-  .commitment-img__devices {
-    display: none;
-  }
-}
-
-.commitment-content {
+.subscribe {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  flex-wrap: wrap;
-
-  & .commitment-content__text {
-    text-align: center;
-    font-size: 3rem;
-    line-height: 2;
-    flex-basis: calc(55% - 1rem);
-  }
-
-  & .commitment-content__img {
-    flex-basis: calc(45% - 1rem);
-  }
-
-  @media (max-width: 1080px) {
-    & .commitment-content__text {
-      flex-basis: calc(90% - 1rem);
-      order: 20;
-    }
-
-    & .commitment-content__img {
-      flex-basis: calc(90% - 1rem);
-      order: 10;
-    }
-  }
+  margin: 10rem 0;
 }
 
 /* NewLetts */

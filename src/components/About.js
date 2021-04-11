@@ -36,28 +36,10 @@ class About extends LitElement {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: auto;
   background: linear-gradient(270deg, #e8a9b0, #96b8d4);
   color: white;
-}
-
-@media (max-width: 768px) {
-  .skewed {
-    height: 115rem;
-  }
-}
-
-@media (max-width: 540px) {
-  .skewed {
-    height: 100rem;
-  }
-}
-
-@media (max-width: 468px) {
-  .skewed {
-    height: 135rem;
-  }
+  padding: 3rem;
+  margin-bottom: 10rem;
 }
 
 .about-section {
