@@ -39,6 +39,9 @@ form {
   border-radius: 1rem;
   max-width: 100%;
   width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form {
