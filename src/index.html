@@ -8,6 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="./index.css">
   <script type="module" src="./index.js"></script>
+  <script src="https://js.stripe.com/v3"></script>
 </head>
 
 <body>
@@ -33,21 +34,60 @@
     </div>
   </div>
   <!-- About us section -->
-  <about-us>
-    <!-- <section class="container">
-      <h2 class="title-about blue-shadow">About us</h2>
-      <div class="about-section">
-        <div class="about-section__text">
-          <p >In YekaCoin we are dedicated to manage data extracted from third party API's, to make information of a great variety of cryptocurrencies and work with this information to generate customized graphs and to be able to make comparisons between them. 
+  <about-us></about-us>
+  <!-- Inicio stripe -->
+    <!-- Load Stripe.js on your website. -->
+  <script src="https://js.stripe.com/v3"></script>
 
-We also work with news related to cryptos.</p>
-        </div>
-        <div class="about-section__img">
-          <img src="./assets/photo-1611967556157-d5c8830b5161.jfif" alt="">
-        </div>        
-      </div>
-    </section> -->
-  </about-us>
+  <div class="container-premium__subscription">
+    <h2 class="premium__subscription-title">¿Do you want to receive our latest news?</h2>
+    <div class="premium__subscription-paragraph">
+      <p >Become a premium user and get unlimited access to all the services we offer. In addition you will be giving us economic support to continue growing and seeking to make us leaders in the sector.</p>
+    </div>
+    <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+    <button class="stripe-button"
+      id="checkout-button-price_1IfLqUJrRSrs7T7nN8Q0sCOK"
+      role="link"
+      type="button"
+    >
+      Get Premium subscription!
+    </button>
+  </div>
+  <div id="error-message"></div>
+
+  <script>
+  (function() {
+    var stripe = Stripe('pk_test_51IdHifJrRSrs7T7nD144hV8IcQ0Uzw6j5uEjZy1yBzqQkbdjThB0UrpHsJ32jZ8cHYP9k9dtpxqq3iDQkmY2XwHy008b64e1O0')
+
+    var checkoutButton = document.getElementById('checkout-button-price_1IfLqUJrRSrs7T7nN8Q0sCOK')
+    checkoutButton.addEventListener('click', function () {
+      /*
+      * When the customer clicks on the button, redirect
+      * them to Checkout.
+      */
+      stripe.redirectToCheckout({
+        lineItems: [{price: 'price_1IfLqUJrRSrs7T7nN8Q0sCOK', quantity: 1}],
+        mode: 'subscription',
+        /*
+        * Do not rely on the redirect to the successUrl for fulfilling
+        * purchases, customers may not always reach the success_url after
+        * a successful payment.
+        * Instead use one of the strategies described in
+        * https://stripe.com/docs/payments/checkout/fulfill-orders
+        */
+        successUrl: 'https://tahichemena.github.io/curso_frontend_2019/stripe/success.html',
+        cancelUrl: 'https://tahichemena.github.io/curso_frontend_2019/stripe/canceled.html',
+      })
+      .then(function (result) {
+        if (result.error) {
+          var displayError = document.getElementById('error-message')
+          displayError.textContent = result.error.message
+        }
+      })
+    })
+  })()
+  </script>
+  <!-- Fin stripe -->
   <!-- Our Commitment -->
   <main>
     <section class="container">
