@@ -66,6 +66,7 @@ class About extends LitElement {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   font-size: 2rem;
 }
 
@@ -77,6 +78,7 @@ class About extends LitElement {
 }
 
 .title-about {
+  text-align: center;
   font-size: 4rem;
   font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
   text-shadow:

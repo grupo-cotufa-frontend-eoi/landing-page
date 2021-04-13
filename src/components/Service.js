@@ -57,7 +57,7 @@ class Service extends LitElement {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 50px;
+    gap: 5rem;
     grid-template-areas:
       ".      card1  ."
       "card2  card1  card3"
