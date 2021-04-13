@@ -14,6 +14,7 @@ class PageWelcome extends LitElement {
   static get styles() {
     return css`
     .logo {
+      color: white;
       font-size: 4rem;
       font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
       line-height: 1.5;

@@ -16,9 +16,9 @@ class BaseFooter extends LitElement {
                     </div>
                     <div class="column">
                         <span class="basic-header plus-header">Links</span>
-                        <span class="marginY-two"><a href="#" class="row">link 1</a></span>
-                        <span class="marginY-two"><a href="#" class="row">link 1</a></span>
-                        <span class="marginY-two"><a href="#" class="row">link 1</a></span>
+                        <span class="marginY-two"><a href="#" class="row">Our Objectives</a></span>
+                        <span class="marginY-two"><a href="#" class="row">Previous Projects</a></span>
+                        <span class="marginY-two"><a href="#" class="row">About YekaCoin</a></span>
                     </div>
                     <div class="column">
                         <span class="basic-header plus-header">Legal</span>
@@ -173,10 +173,6 @@ svg {
   .center-container {
     margin-top: 2rem/* 32px */;
   }
-}
-
-.f-container {
-  width: 100%;
 }
 
 @media (min-width: 640px) {

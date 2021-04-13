@@ -6,3 +6,4 @@ import "./components/Footer";
 import "./components/Service";
 import "./components/Form";
 import "./components/NewsLetter";
+import "./components/LandingLink";

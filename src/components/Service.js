@@ -6,17 +6,28 @@ class Service extends LitElement {
     <div class="card-container">
         <div class="card-item">
             <figure class="card-img">
-                <img class="card-picture" src="" alt="">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-layout-grid-add" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="4" y="4" width="6" height="6" rx="1" />
+                <rect x="14" y="4" width="6" height="6" rx="1" />
+                <rect x="4" y="14" width="6" height="6" rx="1" />
+                <path d="M14 17h6m-3 -3v6" />
+              </svg>
             </figure>
-            <h3 class="card__title">Lorem ipsum dolor sit amet</h3>
-            <p class="card__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt repellat vitae iste atque rerum est voluptatibus quos alias, cumque ullam fugit vero similique nobis tenetur nostrum officia, corrupti eum!</p>
+            <h3 class="card__title">Track your favorite Coins</h3>
+            <p class="card__paragraph">At yekacoin we allow you to view cards of all our available coins and if you only want to focus your attention on a few coins you can filter them by adding them to favorites.</p>
         </div>
         <div class="card-item">
             <figure class="card-img">
-                <img class="card-picture" src="" alt="">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-coin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="12" r="9" />
+                <path d="M14.8 9a2 2 0 0 0 -1.8 -1h-2a2 2 0 0 0 0 4h2a2 2 0 0 1 0 4h-2a2 2 0 0 1 -1.8 -1" />
+                <path d="M12 6v2m0 8v2" />
+              </svg>
             </figure>
-            <h3 class="card__title">Lorem ipsum dolor sit amet</h3>
-            <p class="card__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt repellat vitae iste atque rerum est voluptatibus quos alias, cumque ullam fugit vero similique nobis tenetur nostrum officia, corrupti eum!</p>
+            <h3 class="card__title">Coin to Coin Comparatives</h3>
+            <p class="card__paragraph">Apart from providing graphs that allow us to compare currency values, we also have comparative tables that allow us to compare currencies taking into account other characteristics, leaving aside price variations over time.</p>
         </div>
         <div class="card-item">
             <figure class="card-img">
@@ -28,8 +39,8 @@ class Service extends LitElement {
                     <line x1="4" y1="20" x2="18" y2="20" />
                 </svg>
             </figure>
-            <h3 class="card__title">Lorem ipsum dolor sit amet</h3>
-            <p class="card__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt repellat vitae iste atque rerum est voluptatibus quos alias, cumque ullam fugit vero similique nobis tenetur nostrum officia, corrupti eum!</p>
+            <h3 class="card__title">Intuitive charts</h3>
+            <p class="card__paragraph">We allow you to observe the information about the currencies in customized graphs for each one of them, being able to see the changes in their value over time.</p>
         </div>
         <div class="card-item">
             <figure class="card-img">
@@ -41,8 +52,8 @@ class Service extends LitElement {
                 <line x1="8" y1="16" x2="12" y2="16" />
             </svg>
             </figure>
-            <h3 class="card__title">Lorem ipsum dolor sit amet</h3>
-            <p class="card__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt repellat vitae iste atque rerum est voluptatibus quos alias, cumque ullam fugit vero similique nobis tenetur nostrum officia, corrupti eum!</p>
+            <h3 class="card__title">Latest news</h3>
+            <p class="card__paragraph">We manage news on a wide range of cryptocurrencies, which will allow you to keep abreast of the latest trends and conflicts in the world of virtual currencies.</p>
         </div>
     </div>
     `;

@@ -14,10 +14,15 @@
   <!-- Navbar section -->
   <nav-bar>
     <nav class="nav-main">
-      <primary-button class="btn-navbar__secondary register" value="Inicio"></primary-button>
-      <primary-button class="btn-navbar__secondary" value="Inicio"></primary-button>
-      <primary-button class="btn-navbar__secondary" value="Inicio"></primary-button>
-      <primary-button class="btn-navbar__primary" value="About us"></primary-button>
+      <a href="#services">
+        <primary-button class="btn-navbar__secondary" value="Services"></primary-button>
+      </a>
+      <a href="#subscription">
+        <primary-button class="btn-navbar__secondary" value="Premium"></primary-button>
+      </a>
+      <a href="#about-us">
+        <primary-button class="btn-navbar__primary" value="About us"></primary-button>
+      </a>
     </nav>
   </nav-bar>
   <div class="container-full">
@@ -30,19 +35,23 @@
     </div>
   </div>
   <!-- Our Commitment -->
-  <main class="cards">
+  <main id="services" title="Services section" class="cards">
     <div class="container">
       <h2 class="title-about blue-shadow">Our Service</h2>
       <service-page></service-page>
     </div>
   </main>
-    <!-- About us section -->
+  <!-- About us section -->
+  <div id="about-us" title="About-us section"></div>
   <about-us></about-us>
+
+  <!-- Link to landing page -->
+  <landing-link></landing-link>
       <!-- Load Stripe.js on your website. -->
   <script src="https://js.stripe.com/v3"></script>
 
-  <div class="container-premium__subscription">
-    <h2 class="premium__subscription-title">¿Do you want to receive our latest news?</h2>
+  <div id="subscription" title="Premium subscription section" class="container-premium__subscription">
+    <h2 class="title-about blue-shadow">¿Do you want to be part of Yekacoin?</h2>
     <div class="premium__subscription-paragraph">
       <p >Become a premium user and get unlimited access to all the services we offer. In addition you will be giving us economic support to continue growing and seeking to make us leaders in the sector.</p>
     </div>
@@ -51,7 +60,7 @@
       id="checkout-button-price_1IfLqUJrRSrs7T7nN8Q0sCOK"
       role="link"
       type="button">
-          Get Premium subscription!
+          Buy VIP
     </button>
   </div>
   <div id="error-message"></div>

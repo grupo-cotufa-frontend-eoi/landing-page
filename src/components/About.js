@@ -56,7 +56,7 @@ class About extends LitElement {
 
 .about-section .about-section__text {
   flex-basis: calc(55% - 1rem);
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1;
   text-align: center;
 }
