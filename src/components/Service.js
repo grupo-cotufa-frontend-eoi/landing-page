@@ -132,6 +132,7 @@ class Service extends LitElement {
     margin: 2rem;
     font-size: 3.5rem;
     color: #fff;
+    text-align: center;
   }
 
   .card__paragraph {

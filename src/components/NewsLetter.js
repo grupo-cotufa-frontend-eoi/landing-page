@@ -37,6 +37,12 @@ class Star extends LitElement {
     border-radius: 8px;
   }
 
+  @media (max-width: 600px) {
+    .wrapper {
+      width: 95%;
+    }
+  }
+
   .subscribe-container {
     background-color: #fff;
     padding: 40px;

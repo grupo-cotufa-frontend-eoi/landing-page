@@ -149,9 +149,9 @@ body {
 .subscribe {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
   margin: 10rem 0;
+  width: 100%;
 }
 
 /* Pagos con stripe */
