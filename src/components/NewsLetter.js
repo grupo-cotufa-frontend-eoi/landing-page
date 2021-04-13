@@ -14,7 +14,7 @@ class Star extends LitElement {
         <p class="message">Subscribe to get the latest <span>news & updates.</span></p>
 
         <form>
-            <button class="submit"><a href="a href="https://tinyletter.com/adgomez94">Subscribe</a></button>
+            <button class="submit"><a href="https://tinyletter.com/adgomez94">Subscribe</a></button>
         </form>
     </div>
 </div>

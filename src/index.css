@@ -16,12 +16,10 @@
 :root {
   /* Color */
   --primary: #ffecd0;
-  --secondary: #ffe2b6;
   --lightBlue: #bee0ff;
   --darkBlue: #94cbff;
   --orange: #da7500;
   --marine: #2192fb;
-  --turquoise: #70ffee;
 
   font-family: "Advent Pro", sans-serif;
 }
@@ -141,7 +139,7 @@ body {
 
 /* commitment */
 .cards {
-  margin-bottom: 10rem;
+  margin: 10rem 0;
 }
 
 /* NewLetts */
