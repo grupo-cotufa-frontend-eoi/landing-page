@@ -5,7 +5,7 @@ class Navbar extends LitElement {
     return html`
       <header class="header-main">
         <a href="./index.html">
-          <img class="logo" src="/logo.png" alt="YekaCoin logo">
+          <img class="logo" src="/logo-yekacoin.webp" alt="YekaCoin logo">
         </a>
         <slot></slot>
       </header>
