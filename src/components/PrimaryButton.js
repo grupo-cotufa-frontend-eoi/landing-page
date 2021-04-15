@@ -4,7 +4,7 @@ class PrimaryButton extends LitElement {
   render() {
     return html`
       <button class="nav-main__link">
-        <a href="#hola">${this.getAttribute("value")}</a>
+        <a href="#${this.getAttribute("link")}">${this.getAttribute("value")}</a>
       </button>
     `;
   }

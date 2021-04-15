@@ -24,8 +24,13 @@ class Star extends LitElement {
   static get styles() {
     return css`
   a {
+    line-height: 5rem;
     text-decoration: none;
     color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
   }
 
   .wrapper {
@@ -100,6 +105,10 @@ class Star extends LitElement {
   }
 
   form button {
+    display: flex;
+    place-items: center;
+    height: 5rem;
+    padding: 0;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.1em;
