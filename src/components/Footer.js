@@ -126,7 +126,7 @@ class BaseFooter extends LitElement {
 }
 
 .row {
-  color: var(--lightBlue);
+  color: white;
   font-size: 2rem;
   line-height: 1.5rem;
   transition: color 0.5s;

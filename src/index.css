@@ -3,14 +3,14 @@
   font-family: "Advent Pro";
   font-weight: normal;
   font-style: normal;
-  src: url(./fonts/advent-pro-v11-latin-600.woff2) format("woff2");
+  src: url(./fonts/advent-pro.woff2) format("woff2");
 }
 
 @font-face {
   font-family: "Press Start 2P";
   font-style: normal;
   font-weight: normal;
-  src: url(./fonts/press-start-2p-v9-latin-regular.woff2) format("woff2");
+  src: url(./fonts/press-start-2p.woff2) format("woff2");
 }
 
 :root {
@@ -33,7 +33,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  background: url(./bg.jfif) no-repeat center center fixed;
+  background: url(../public/bg.jfif) no-repeat center center fixed;
   background-size: cover;
 }
 
