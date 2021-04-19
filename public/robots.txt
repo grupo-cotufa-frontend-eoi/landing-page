@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /fonts/
+Disallow:/adrian.jfif
+Disallow:/nestor.webp
+Allow:/index.html
